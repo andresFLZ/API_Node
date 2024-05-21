@@ -1,6 +1,6 @@
 # SCRIPT DB
 
-CREATE TABLE "Categoria"
+CREATE TABLE "categoria"
 (
 	categoria_id serial NOT NULL,
 	nombre varchar(50) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE "Categoria"
 )
 ;
 
-CREATE TABLE "Producto"
+CREATE TABLE "producto"
 (
 	producto_id serial NOT NULL,
 	nombre varchar(50) NOT NULL,
